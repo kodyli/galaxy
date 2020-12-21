@@ -2,10 +2,12 @@
 <html>
 <head>
     <title>Galaxy</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+    <script src="./lib/jQuery/jQuery.min.js"></script>
+    <script src="./lib/angular/angular.min.js"></script>
+    <link rel="stylesheet" href="./lib/jQuery/jquery-ui.min.css">
 </head>
-<body>
-    <p>RCOE ERP System</p>
+<body ng-app="main" ng-controller="MainController as ctrl">
+    <p>{{ctrl.name}}</p>
+    <script src="./index.js"></script>
 </body>
 </html>
