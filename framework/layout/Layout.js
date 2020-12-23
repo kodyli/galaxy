@@ -12,8 +12,8 @@
     angular.module('layout', [])
     .directive('gwLayout', function LayoutDirective(){
         return {
-            restrict: 'A',
-            controller:LayoutController,
+            restrict: 'C',
+            controller: LayoutController,
             controllerAs: 'gwLayoutCtrl',
             require:'gwLayout',
             compile:function(tEle, tAttr){
@@ -32,7 +32,7 @@
     })
     .directive('gwLayoutTop',function(){
         return {
-            restrict: 'A',
+            restrict: 'C',
             compile: function (tEle) {
                 tEle.addClass('ui-layout-north');
             }
@@ -40,7 +40,7 @@
     })
     .directive('gwLayoutCenter', function () {
         return {
-            restrict: 'A',
+            restrict: 'C',
             compile: function (tEle) {
                 tEle.addClass('ui-layout-center');
             }
@@ -48,7 +48,7 @@
     })
     .directive('gwLayoutLeft', function () {
         return {
-            restrict: 'A',
+            restrict: 'C',
             compile: function (tEle) {
                 tEle.addClass('ui-layout-west');
             }
@@ -56,7 +56,7 @@
     })
     .directive('gwLayoutRight', function () {
         return {
-            restrict: 'A',
+            restrict: 'C',
             compile: function (tEle) {
                 tEle.addClass('ui-layout-east');
             }

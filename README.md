@@ -2,6 +2,7 @@
 ERP system
 
 ## Bridge-Adapter Design Pattern 
+framework/layout/eta.js show the origin desigin.
 It sperates our code to three fields: framework, rcoe, and library. So we can easily to replace or update a framework or library.
 
 ### Bridge Design Pattern
