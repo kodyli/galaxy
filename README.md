@@ -1,6 +1,8 @@
 # galaxy
 ERP system
 
+##Bridge-Adapter Design Pattern sperates our code to three fields: framework, rcoe, and library. So we can easily to replace or update a framework or library.
+
 ###Bridge Design Pattern
 
 #####Intent
