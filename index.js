@@ -1,5 +1,5 @@
 (function(angular){
-    angular.module('main',[])
+    angular.module('main',['grid'])
     .controller('MainController',function(){
         this.name ='RCOE ERP System';
     });
