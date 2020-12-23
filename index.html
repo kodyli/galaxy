@@ -4,10 +4,24 @@
     <title>Galaxy</title>
     <script src="./lib/jQuery/jQuery.min.js"></script>
     <script src="./lib/angular/angular.min.js"></script>
+    <script src="./lib/jqGrid/jqGrid.min.js"></script>
     <link rel="stylesheet" href="./lib/jQuery/jquery-ui.min.css">
+    <link rel="stylesheet" href="./lib/jQuery/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./lib/jQuery/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./lib/jqGrid/jqGrid.css">
 </head>
 <body ng-app="main" ng-controller="MainController as ctrl">
     <p>{{ctrl.name}}</p>
+    
+    <gw-grid></gw-grid>
+    <!--Grid-->
+    <script src="./grid/AGrid.js"></script>
+    <script src="./grid/AGridImp.js"></script>
+    <script src="./grid/JqGrid.js"></script>
+    <script src="./grid/Grid.js"></script>
+    
+    <!--Main-->
     <script src="./index.js"></script>
+
 </body>
 </html>
