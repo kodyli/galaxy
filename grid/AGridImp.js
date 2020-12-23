@@ -1,3 +1,12 @@
+/**
+* Bridge Design Pattern
+* Implementor
+*/
+
+/**
+* Adapter Design Pattern
+* Target
+*/
 function AGridImp(){}
 Object.assign(AGridImp.prototype,{
     addRow:function(rowData){

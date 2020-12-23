@@ -1,3 +1,7 @@
+/**
+* Bridge Design Pattern
+* Abstraction Sub Class
+*/
 (function(angular){
     //Grid Controller
     function GridController(){}

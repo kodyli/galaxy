@@ -1,3 +1,7 @@
+/**
+* Bridge Design Pattern
+* Abstraction
+*/
 function AGrid(){
     this.gridImp = null;
 }

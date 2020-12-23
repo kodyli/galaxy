@@ -1,3 +1,13 @@
+/**
+* Bridge Design Pattern
+* Implementor Sub Class
+*/
+
+/**
+* Adapter Design Pattern
+* Adapter
+* jqGrid Library is the adaptee.
+*/
 function JqGrid($table, config){
     var _config ={
         datatype: "local",
